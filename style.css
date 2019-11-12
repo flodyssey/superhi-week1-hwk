@@ -1,0 +1,47 @@
+section {
+  height: 100vh;
+  width: 100wh;
+  background-color: #ddd;
+  /* make the background image fullsize*/
+  background-size: cover;
+  background-position: center;
+  /* background-attachment fixes the photo in relation to the view port*/
+  background-attachment: fixed;
+}
+
+.thePen {
+  background-image: url('img/the-pen.svg');
+  background-color: #ffffff;
+}
+
+.isMightier {
+  background-image: url('img/is-mightier.svg');
+  background-color: #000000;
+}
+
+.than {
+  background-image: url('img/than.svg');
+  background-color: #ffffff;
+}
+
+.theSword {
+  background-image: url('img/the-sword.svg');
+  background-color: #000000;
+}
+
+.end {
+  background-image: url('img/end.svg');
+  background-color: #00f10a;
+}
+
+footer {
+  position: fixed;
+  width: 40px;
+  bottom: 30px;
+/*   padding-left: auto;
+  padding-right: auto; */
+	left: 50%;
+	/* element aligns left of the icon instead of center
+	use negative number to offset*/
+	margin-left: -20px;
+}
